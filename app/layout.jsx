@@ -27,8 +27,8 @@ import Image from "next/image";
 import "./globals.css";
 
 export const metadata = {
-  title: "Your Company Name",
-  description: "Company description",
+  title: "CureMatrix",
+  description: "Medical solutions you can trust",
 };
 
 export default function RootLayout({ children }) {
@@ -49,10 +49,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
-
-
-            </body>
-        </html>
-    );
 }
