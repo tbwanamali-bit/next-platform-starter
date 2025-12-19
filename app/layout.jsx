@@ -23,30 +23,3 @@ export default function RootLayout({ children }) {
                         <Footer />
                     </div>
                 </div>
-import Image from "next/image";
-import "./globals.css";
-
-export const metadata = {
-  title: "CureMatrix",
-  description: "Medical solutions you can trust",
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        <header style={{ padding: "16px" }}>
-          <Image
-            src="/images/curematrixlogo.png"
-            alt="Company Logo"
-            width={160}
-            height={60}
-            priority
-          />
-        </header>
-
-        {children}
-      </body>
-    </html>
-  );
-}
